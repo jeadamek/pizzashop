@@ -9,7 +9,7 @@ import {
   TableRow,
 } from '@/components/ui/table'
 
-import { OrderTableFilters } from './order-able-filters'
+import { OrderTableFilters } from './order-table-filters'
 import { OrderTableRow } from './order-table-row'
 
 export function Orders() {
