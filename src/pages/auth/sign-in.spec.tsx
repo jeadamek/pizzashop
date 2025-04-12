@@ -18,7 +18,7 @@ describe('NavLink', () => {
           return (
             <HelmetProvider>
               <MemoryRouter
-                initialEntries={['/sin-in?email=johndoe@example.com']}
+                initialEntries={['/sign-in?email=johndoe@example.com']}
               >
                 <QueryClientProvider client={queryClient}>
                   {children}
